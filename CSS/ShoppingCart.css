@@ -1,0 +1,47 @@
+body {
+	background-color: lightgrey;
+}
+
+.navbar {
+	background-color: black;
+}
+
+.header {
+	height: 10vh;
+	background-color: green;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.wrapper {
+	margin: 25px;
+}
+
+.list {
+	background-color: white;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 15vh;
+	padding: 0 5% 0 5%;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+.itemImg {
+	position: relative;
+	width: 75px;
+	height: 75px;
+}
+
+.summary {
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10%;
+	padding: 15px;
+	position: fixed;
+	bottom: 25px;
+	right: 50px;
+	margin: 15px;
+}

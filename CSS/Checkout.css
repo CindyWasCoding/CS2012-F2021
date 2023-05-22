@@ -1,0 +1,30 @@
+body {
+	background-color: lightgrey;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wrapper {
+	background-color: white;
+	padding: 25px 50px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	align-items: center;
+}
+
+.paymentMethod {
+	display: flex;
+	flex-direction: column;;
+	align-items: center;
+}
+
+.method {
+	width: 100%;
+}

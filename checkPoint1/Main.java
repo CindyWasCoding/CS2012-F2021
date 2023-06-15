@@ -1,5 +1,3 @@
-package checkPoint1;
-
 /*Write a CoordinatePair class.  One CoordinatePair object represents one point on a plane, with an int x coordinate 
  * and an int y coordinate.  In addition to the two private data variables, include the following public methods:
 
@@ -13,7 +11,7 @@ package checkPoint1;
   CoordinatePair(2, -5)
   
 - A boolean equals(CoordinatePair otherPair) method which returns true if otherPair has the same x and y values as the
-  instance on which the method is called, and otherwise returns false (think about String’s equals() method).
+  instance on which the method is called, and otherwise returns false (think about Stringâ€™s equals() method).
   
 - A double getEuclideanDistance(CoordinatePair otherPair) method that calculates and returns the Euclidean distance 
   between the instance CoordinatePair and otherPair.  Use the Pythagorean theorem; the Euclidean distance is the 
@@ -23,8 +21,8 @@ package checkPoint1;
   Math.pow(base, exponent) returns the result of raising base to exponent (for example, Math.pow(2,3) returns 8)
 */
 
+package checkPoint1;
 public class Main {
-
 	public static void main(String[] args) {
 		CoordinatePair coordinatepairs = new CoordinatePair();
 		CoordinatePair coordinatepairs2 = new CoordinatePair(2,3);
@@ -39,5 +37,4 @@ public class Main {
 		//Printing out Euclidean Distance
 		System.out.println(coordinatepairs.getEuclideanDistance(coordinatepairs2));
 	}
-
 }

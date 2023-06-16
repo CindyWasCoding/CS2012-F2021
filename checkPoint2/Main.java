@@ -32,14 +32,13 @@ should return the String "yap yap yap."
 - a huntGopher() method that prints out a message similar to "Thor digs into gopher burrow in single minded quest of prey".  This message 
 must include the actual name of the Pomeranian.
 */
-package checkPoint2;
 
+package checkPoint2;
 public class Main {
 	public static void main(String[] args) {
 		Dog dog1 = new Dog("Cola", 10);
 		Dog dog2 = new PitBull(8000, "Coca", 25);
 		Dog dog3 = new Pomeranian("Pepsi", 7);
-		
 		System.out.println(dog1);
 		System.out.println(dog1.bark());
 		System.out.println(dog2);

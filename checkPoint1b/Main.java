@@ -1,4 +1,3 @@
-package checkPoint1b;
 /*Write a Monster class. A Monster has a name (String) and a ferocity (double). In addition to the two private data variables, 
  * include the following public instance (not static) methods:
 
@@ -12,18 +11,19 @@ package checkPoint1b;
   Monster named Godzilla with ferocity 1.0
 
 - A boolean equals(Monster otherMonster) method which returns true if otherMonster has the same name and ferocity as this monster, 
-  and otherwise returns false (think about String’s equals() method).
+  and otherwise returns false (think about Stringâ€™s equals() method).
   
 - A double getFerocityRatio(Monster otherMonster) method that calculates and returns the ratio of this monster's ferocity to the 
   ferocity of some other monster. For example, if this monster's ferocity is 0.7 and the other monster's ferocity is 0.8, this method 
   returns 0.875. Note that, like equals(), this is an instance method and that it takes only one parameter.
 */
+
+package checkPoint1b;
 public class Main {
 	public static void main(String[] args) {
 		Monster monster1 = new Monster();
 		monster1.setName("Godzilla");
 		monster1.setFerocity(0.7);
-		
 		
 		Monster monster2 = new Monster("King Kong", 0.8);
 		Monster monster3 = new Monster("King Kong", 0.8);

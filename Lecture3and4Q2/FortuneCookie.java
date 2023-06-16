@@ -10,6 +10,4 @@ public class FortuneCookie {
 	public String getMessage() {
 		return this.message;
 	}
-	
-
 }

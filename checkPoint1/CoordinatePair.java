@@ -13,27 +13,23 @@ public class CoordinatePair {
 		this.y = y;
 	}
 	
-	
 	//Constructor that takes no arguments
 	public CoordinatePair() {
-		
 	}
-	
 	
 	public CoordinatePair(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
 	
-	
 	//Accessors for x and y (getters)
 	public int getX() {
 		return this.x;
 	}
+	
 	public int getY() {
 		return this.y;
 	}
-	
 	
 	//toString Constructor
 	public String toString() {
@@ -42,11 +38,9 @@ public class CoordinatePair {
 	}
 	
 	
-	
 	public boolean equals(CoordinatePair otherPair) {
 		return this.x == otherPair.getX() && this.y == otherPair.getY();
 	}
-	
 	
 	//Euclidean Distance
 	public double getEuclideanDistance(CoordinatePair otherPair) {

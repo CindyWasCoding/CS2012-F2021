@@ -1,4 +1,3 @@
-package Lecture3and4Q2;
 /* Write a FortuneCookie class.  This class must have:
 - An instance, not static, variable called message, which is a String and is declared in the class but outside any method. 
 
@@ -16,6 +15,8 @@ Then write a driver class with a main() method.  main() should:
   
 - Iterate through the array, calling getMessage() on each FortuneCookie and printing out the String returned.
 */
+
+package Lecture3and4Q2;
 public class Main {
 	public static void main(String[] args) {
 		FortuneCookie[] fortuneCookies = {

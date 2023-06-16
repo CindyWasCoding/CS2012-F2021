@@ -1,4 +1,3 @@
-package Lecture6Q1;
 /* A) Write a Student class.  Student should have a private name (String) and a private gpa (double).  It should have 
  * a constructor that takes values for the name and gpa, and a reasonable toString().
  * 
@@ -24,14 +23,13 @@ Change the Student class you wrote for the last exercise as follows:
   gets the GPA by calling getGpa(), then prints them out in a format similar to the one you previously obtained by printing the toString().
  */
 
+package Lecture6Q1;
 import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) {
 		//abstract						  //concrete
 		ArrayList<Student> Students = new ArrayList<>();
-		
-		
 		Students.add(new Student("Cindy", 3.5));
 		Students.add(new Student("Alex", 4.0));
 		Students.add(new Student("Crowley", 3.1));
@@ -43,6 +41,5 @@ public class Main {
 			System.out.println(Students.get(i).getName());
 			System.out.println(Students.get(i).getGpa());
 		}
-
 	}
 }
